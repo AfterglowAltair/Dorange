@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DFDEE5152DD36689002AF043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFDEE4FE2DD36688002AF043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFDEE5052DD36688002AF043;
+			remoteInfo = Dorange;
+		};
+		DFDEE51F2DD36689002AF043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFDEE4FE2DD36688002AF043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFDEE5052DD36688002AF043;
+			remoteInfo = Dorange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFDEE5062DD36688002AF043 /* Dorange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dorange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDEE5142DD36689002AF043 /* DorangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DorangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDEE51E2DD36689002AF043 /* DorangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DorangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DFDEE5362DD3745E002AF043 /* Exceptions for "Dorange" folder in "Dorange" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DFDEE5052DD36688002AF043 /* Dorange */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DFDEE5082DD36688002AF043 /* Dorange */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DFDEE5362DD3745E002AF043 /* Exceptions for "Dorange" folder in "Dorange" target */,
+			);
+			path = Dorange;
+			sourceTree = "<group>";
+		};
+		DFDEE5172DD36689002AF043 /* DorangeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DorangeTests;
+			sourceTree = "<group>";
+		};
+		DFDEE5212DD36689002AF043 /* DorangeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DorangeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFDEE5032DD36688002AF043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDEE5112DD36689002AF043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDEE51B2DD36689002AF043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFDEE4FD2DD36688002AF043 = {
+			isa = PBXGroup;
+			children = (
+				DFDEE5082DD36688002AF043 /* Dorange */,
+				DFDEE5172DD36689002AF043 /* DorangeTests */,
+				DFDEE5212DD36689002AF043 /* DorangeUITests */,
+				DFDEE5072DD36688002AF043 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFDEE5072DD36688002AF043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFDEE5062DD36688002AF043 /* Dorange.app */,
+				DFDEE5142DD36689002AF043 /* DorangeTests.xctest */,
+				DFDEE51E2DD36689002AF043 /* DorangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFDEE5052DD36688002AF043 /* Dorange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDEE5282DD36689002AF043 /* Build configuration list for PBXNativeTarget "Dorange" */;
+			buildPhases = (
+				DFDEE5022DD36688002AF043 /* Sources */,
+				DFDEE5032DD36688002AF043 /* Frameworks */,
+				DFDEE5042DD36688002AF043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DFDEE5082DD36688002AF043 /* Dorange */,
+			);
+			name = Dorange;
+			packageProductDependencies = (
+			);
+			productName = Dorange;
+			productReference = DFDEE5062DD36688002AF043 /* Dorange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFDEE5132DD36689002AF043 /* DorangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDEE52B2DD36689002AF043 /* Build configuration list for PBXNativeTarget "DorangeTests" */;
+			buildPhases = (
+				DFDEE5102DD36689002AF043 /* Sources */,
+				DFDEE5112DD36689002AF043 /* Frameworks */,
+				DFDEE5122DD36689002AF043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFDEE5162DD36689002AF043 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DFDEE5172DD36689002AF043 /* DorangeTests */,
+			);
+			name = DorangeTests;
+			packageProductDependencies = (
+			);
+			productName = DorangeTests;
+			productReference = DFDEE5142DD36689002AF043 /* DorangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFDEE51D2DD36689002AF043 /* DorangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDEE52E2DD36689002AF043 /* Build configuration list for PBXNativeTarget "DorangeUITests" */;
+			buildPhases = (
+				DFDEE51A2DD36689002AF043 /* Sources */,
+				DFDEE51B2DD36689002AF043 /* Frameworks */,
+				DFDEE51C2DD36689002AF043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFDEE5202DD36689002AF043 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DFDEE5212DD36689002AF043 /* DorangeUITests */,
+			);
+			name = DorangeUITests;
+			packageProductDependencies = (
+			);
+			productName = DorangeUITests;
+			productReference = DFDEE51E2DD36689002AF043 /* DorangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFDEE4FE2DD36688002AF043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					DFDEE5052DD36688002AF043 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					DFDEE5132DD36689002AF043 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = DFDEE5052DD36688002AF043;
+					};
+					DFDEE51D2DD36689002AF043 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = DFDEE5052DD36688002AF043;
+					};
+				};
+			};
+			buildConfigurationList = DFDEE5012DD36688002AF043 /* Build configuration list for PBXProject "Dorange" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFDEE4FD2DD36688002AF043;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DFDEE5072DD36688002AF043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFDEE5052DD36688002AF043 /* Dorange */,
+				DFDEE5132DD36689002AF043 /* DorangeTests */,
+				DFDEE51D2DD36689002AF043 /* DorangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFDEE5042DD36688002AF043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDEE5122DD36689002AF043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDEE51C2DD36689002AF043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFDEE5022DD36688002AF043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDEE5102DD36689002AF043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDEE51A2DD36689002AF043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFDEE5162DD36689002AF043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFDEE5052DD36688002AF043 /* Dorange */;
+			targetProxy = DFDEE5152DD36689002AF043 /* PBXContainerItemProxy */;
+		};
+		DFDEE5202DD36689002AF043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFDEE5052DD36688002AF043 /* Dorange */;
+			targetProxy = DFDEE51F2DD36689002AF043 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DFDEE5262DD36689002AF043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFDEE5272DD36689002AF043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DFDEE5292DD36689002AF043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Dorange/Dorange.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development: 8613351517487 (PY236Z9352)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development: 8613351517487 (PY236Z9352)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dorange/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = project.Dorange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DFDEE52A2DD36689002AF043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Dorange/Dorange.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development: 8613351517487 (PY236Z9352)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y94957H96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dorange/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = project.Dorange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DFDEE52C2DD36689002AF043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = project.DorangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dorange.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dorange";
+			};
+			name = Debug;
+		};
+		DFDEE52D2DD36689002AF043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = project.DorangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dorange.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dorange";
+			};
+			name = Release;
+		};
+		DFDEE52F2DD36689002AF043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = project.DorangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Dorange;
+			};
+			name = Debug;
+		};
+		DFDEE5302DD36689002AF043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = project.DorangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Dorange;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFDEE5012DD36688002AF043 /* Build configuration list for PBXProject "Dorange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDEE5262DD36689002AF043 /* Debug */,
+				DFDEE5272DD36689002AF043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFDEE5282DD36689002AF043 /* Build configuration list for PBXNativeTarget "Dorange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDEE5292DD36689002AF043 /* Debug */,
+				DFDEE52A2DD36689002AF043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFDEE52B2DD36689002AF043 /* Build configuration list for PBXNativeTarget "DorangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDEE52C2DD36689002AF043 /* Debug */,
+				DFDEE52D2DD36689002AF043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFDEE52E2DD36689002AF043 /* Build configuration list for PBXNativeTarget "DorangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDEE52F2DD36689002AF043 /* Debug */,
+				DFDEE5302DD36689002AF043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFDEE4FE2DD36688002AF043 /* Project object */;
+}
