@@ -1,0 +1,23 @@
+# macOS 系统文件
+.DS_Store
+
+# Xcode 生成的中间文件
+build/
+DerivedData/
+
+# 用户配置文件
+*.xcuserstate
+*.xcuserdata
+*.xcworkspace
+
+# Swift 编译缓存
+*.o
+*.ll
+*.swp
+
+# 日志文件
+*.log
+
+# 输出的 app 和 dmg 包
+*.app
+*.dmg
