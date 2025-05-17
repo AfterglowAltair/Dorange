@@ -8,7 +8,7 @@ struct StatusHistoryView: View {
         VStack(alignment: .leading, spacing: 0) {
             Text("状态历史")
                 .font(.system(size: 12))
-                .foregroundColor(.gray)
+                .foregroundColor(colorScheme == .dark ? .gray : .black)//.gray
                 .padding(.horizontal)
                 .padding(.bottom, 4)
             

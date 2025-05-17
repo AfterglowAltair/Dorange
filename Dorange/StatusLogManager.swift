@@ -17,6 +17,7 @@ struct StatusLogItem: Identifiable {
 /// 功能模块类型枚举
 enum ModuleType {
     case sleep
+    case appearance
     case other // 未来可以添加更多模块类型
 }
 

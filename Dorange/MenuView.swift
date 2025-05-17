@@ -30,15 +30,17 @@ struct MenuButtonStyle: ButtonStyle {
 struct MenuView: View {
     @StateObject private var sleepManager = SleepManager()
     @StateObject private var statusManager = StatusLogManager.shared
+    @StateObject private var appearanceManager = AppearanceManager()
     @EnvironmentObject private var menuBarManager: MenuBarManager
+    @Environment(\.colorScheme) private var colorScheme
     
     var body: some View {
         VStack(spacing: 0) {
             // 功能模块列表部分
             VStack(alignment: .leading, spacing: 8) {
-                Text("功能模块")
+                Text("Dorange")
                     .font(.system(size: 12))
-                    .foregroundColor(.gray)
+                    .foregroundColor(colorScheme == .dark ? .gray : .black)
                     .padding(.horizontal)
                     .padding(.top, 8)
                 
@@ -50,6 +52,21 @@ struct MenuView: View {
                         Text("防止系统休眠")
                         Spacer()
                         if sleepManager.isPreventingSleep {
+                            Image(systemName: "checkmark")
+                                .foregroundColor(.green)
+                        }
+                    }
+                }
+                .buttonStyle(MenuButtonStyle())
+                
+                Button(action: {
+                    appearanceManager.toggleAppearance()
+                }) {
+                    HStack {
+                        Image(systemName: "circle.lefthalf.filled")
+                        Text("颠倒黑白")
+                        Spacer()
+                        if appearanceManager.isCustomAppearance {
                             Image(systemName: "checkmark")
                                 .foregroundColor(.green)
                         }

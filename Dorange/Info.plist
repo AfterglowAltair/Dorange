@@ -13,5 +13,8 @@
 			<string>None</string>
 		</dict>
 	</array>
+    
+    <key>NSAppleEventsUsageDescription</key>
+    <string>我们需要此权限来更改系统外观模式</string>
 </dict>
 </plist>
